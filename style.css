@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://photos.google.com/photo/AF1QipNDRkLuMcNFTNdlsU-lCfM9gEFq52tkFyNMW6e_");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: untoldcoding 55s infinite ease-in-out;
+}
+
+@keyframes untoldcoding {
+  0% {
+    background-image: url("https://photos.google.com/photo/AF1QipNDRkLuMcNFTNdlsU-lCfM9gEFq52tkFyNMW6e_");
+  }
+  25% {
+    background-image: url("https://photos.google.com/photo/AF1QipMaehCt1uHTyuey9ZfT1B46HxMiyLsHFYTgTWSg");
+  }
+  50% {
+    background-image: url("https://photos.google.com/photo/AF1QipOgiVbFnU2KYFOLsGPuIEjGCUBA5JXfLxlfSsxN");
+  }
+  80% {
+    background-image: url("https://photos.google.com/photo/AF1QipMAWjI-3iJiNlkbJrVZQoHlh7Dr5lItZB1XmuU_");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
